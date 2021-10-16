@@ -144,3 +144,17 @@ body {
 .nav_bar:hover .bar__icon {
   background-color: chartreuse !important;
 }
+
+@media (max-width: 600px) {
+  .navigation {
+    justify-content: center;
+    flex: 1 1 100%;
+    order: 2;
+  }
+  .slider__text {
+    overflow: hidden;
+    width: 100%;
+    flex: 1 1 100%;
+    order: 3;
+  }
+}
